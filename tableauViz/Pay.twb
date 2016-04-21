@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9200.16.0201.1945                                -->
+<workbook source-platform='mac' version='9.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet 1 (CeoWorkerWorking)' inline='true' name='excel-direct.184p91r1otrk201dplgn012xv1nw' version='9.2'>
+      <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/dunmireg/Documents/209Final/Tableau/CeoWorkerWorking.xlsx' interpretationMode='1' password='' server='' username='' validate='no'>
+        <relation name='Sheet 1' table='[&apos;Sheet 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:I100:no:A1:I100:1' header='yes' lost='0' outcome='1' processed='146'>
+            <column datatype='real' name='F1' ordinal='0' />
+            <column datatype='datetime' name='Year' ordinal='1' />
+            <column datatype='string' name='CEO/Worker' ordinal='2' />
+            <column datatype='real' name='Average Salary (thousands)' ordinal='3' />
+            <column datatype='real' name='Ratio (CEO to Worker)' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CEO/Worker</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CEO/Worker]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>CEO/Worker</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Salary (thousands)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Salary (thousands)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Average Salary (thousands)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratio (CEO to Worker)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ratio (CEO to Worker)]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>Ratio (CEO to Worker)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I100:no:A1:I100:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>146</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='string' name='[CEO/Worker]' role='dimension' type='nominal' />
+      <column datatype='real' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F5]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F6]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F7]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F8]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F9]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' hidden='true' name='[Worker Comp (thousands)]' role='measure' type='quantitative' />
+      <column-instance column='[CEO/Worker]' derivation='None' name='[none:CEO/Worker:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.484034' measure-ordering='alphabetic' measure-percentage='0.515966' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:CEO/Worker:nk]' type='palette'>
+            <map to='#1f77b4'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Worker (thousands)&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;CEO (thousands)&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average CEO Pay to Average Worker Pay&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet 1 (CeoWorkerWorking)' name='excel-direct.184p91r1otrk201dplgn012xv1nw' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.184p91r1otrk201dplgn012xv1nw'>
+            <column datatype='real' name='[Average Salary (thousands)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[CEO/Worker]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Ratio (CEO to Worker)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[Year]' role='dimension' type='ordinal' />
+            <column-instance column='[CEO/Worker]' derivation='None' name='[none:CEO/Worker:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Average Salary (thousands)]' derivation='Sum' name='[pcdf:sum:Average Salary (thousands):qk:2]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-type='Rows' type='PctDiff'>
+                <address>
+                  <value>-2</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[Ratio (CEO to Worker)]' derivation='Sum' name='[sum:Ratio (CEO to Worker):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:CEO/Worker:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:CEO/Worker:nk]' />
+              <groupfilter function='member' level='[none:CEO/Worker:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:CEO/Worker:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='field-labels-decoration'>
+            <format attr='vertical-align' value='auto' />
+            <format attr='wrap' value='auto' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:ok]' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:CEO/Worker:nk]' />
+              <lod column='[excel-direct.184p91r1otrk201dplgn012xv1nw].[sum:Ratio (CEO to Worker):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</rows>
+        <cols>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</cols>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Dot com bubble</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='1991.3313253012047'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='18.154784240150093'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='1996.7530120481929'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='15.179970998357494'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='2' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Financial crisis</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='2001.7951807228915'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='17.472040217443599'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='2007.6506024096386'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='14.741064126617598'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+          <annotation class='area' id='4' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run>Reagan Administration</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='1979.8915662650602'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='5.0363455181466428'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='1987.3734939759036'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[yr:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='2.8418111594471824'>
+                  <node-reference>
+                    <axis>[excel-direct.184p91r1otrk201dplgn012xv1nw].[pcdf:sum:Average Salary (thousands):qk:2]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='28'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:CEO/Worker:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:CEO/Worker:nk]</field>
+            <field>[excel-direct.184p91r1otrk201dplgn012xv1nw].[none:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
