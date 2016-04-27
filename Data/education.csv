@@ -1,0 +1,415 @@
+"","Education","variable","value"
+"1","Less than 9th grade","Total",9896
+"2","9th to 12th grade, no diploma","Total",14686
+"3","High school graduate (includes equivalency)","Total",62575
+"4","Some college, no degree","Total",35164
+"5","Associate degree","Total",20867
+"6","Bachelor's degree","Total",43500
+"7","Master's degree","Total",18471
+"8","Professional degree","Total",3365
+"9","Doctorate degree","Total",3609
+"10","Less than 9th grade","Total.with.Income",8111
+"11","9th to 12th grade, no diploma","Total.with.Income",12379
+"12","High school graduate (includes equivalency)","Total.with.Income",56677
+"13","Some college, no degree","Total.with.Income",32814
+"14","Associate degree","Total.with.Income",19797
+"15","Bachelor's degree","Total.with.Income",41484
+"16","Master's degree","Total.with.Income",17868
+"17","Professional degree","Total.with.Income",3260
+"18","Doctorate degree","Total.with.Income",3557
+"19","Less than 9th grade","X.1.to..2.499.or.loss",396
+"20","9th to 12th grade, no diploma","X.1.to..2.499.or.loss",738
+"21","High school graduate (includes equivalency)","X.1.to..2.499.or.loss",2503
+"22","Some college, no degree","X.1.to..2.499.or.loss",1570
+"23","Associate degree","X.1.to..2.499.or.loss",935
+"24","Bachelor's degree","X.1.to..2.499.or.loss",2063
+"25","Master's degree","X.1.to..2.499.or.loss",713
+"26","Professional degree","X.1.to..2.499.or.loss",74
+"27","Doctorate degree","X.1.to..2.499.or.loss",109
+"28","Less than 9th grade","X.2.500.to..4.999",312
+"29","9th to 12th grade, no diploma","X.2.500.to..4.999",412
+"30","High school graduate (includes equivalency)","X.2.500.to..4.999",1263
+"31","Some college, no degree","X.2.500.to..4.999",698
+"32","Associate degree","X.2.500.to..4.999",370
+"33","Bachelor's degree","X.2.500.to..4.999",547
+"34","Master's degree","X.2.500.to..4.999",199
+"35","Professional degree","X.2.500.to..4.999",24
+"36","Doctorate degree","X.2.500.to..4.999",39
+"37","Less than 9th grade","X.5.000.to..7.499",504
+"38","9th to 12th grade, no diploma","X.5.000.to..7.499",708
+"39","High school graduate (includes equivalency)","X.5.000.to..7.499",1974
+"40","Some college, no degree","X.5.000.to..7.499",941
+"41","Associate degree","X.5.000.to..7.499",459
+"42","Bachelor's degree","X.5.000.to..7.499",757
+"43","Master's degree","X.5.000.to..7.499",236
+"44","Professional degree","X.5.000.to..7.499",49
+"45","Doctorate degree","X.5.000.to..7.499",41
+"46","Less than 9th grade","X.7.500.to..9.999",1015
+"47","9th to 12th grade, no diploma","X.7.500.to..9.999",1385
+"48","High school graduate (includes equivalency)","X.7.500.to..9.999",3248
+"49","Some college, no degree","X.7.500.to..9.999",1279
+"50","Associate degree","X.7.500.to..9.999",655
+"51","Bachelor's degree","X.7.500.to..9.999",758
+"52","Master's degree","X.7.500.to..9.999",239
+"53","Professional degree","X.7.500.to..9.999",45
+"54","Doctorate degree","X.7.500.to..9.999",42
+"55","Less than 9th grade","X.10.000.to..12.499",1045
+"56","9th to 12th grade, no diploma","X.10.000.to..12.499",1484
+"57","High school graduate (includes equivalency)","X.10.000.to..12.499",4051
+"58","Some college, no degree","X.10.000.to..12.499",1857
+"59","Associate degree","X.10.000.to..12.499",896
+"60","Bachelor's degree","X.10.000.to..12.499",1110
+"61","Master's degree","X.10.000.to..12.499",370
+"62","Professional degree","X.10.000.to..12.499",49
+"63","Doctorate degree","X.10.000.to..12.499",43
+"64","Less than 9th grade","X.12.500.to..14.999",645
+"65","9th to 12th grade, no diploma","X.12.500.to..14.999",917
+"66","High school graduate (includes equivalency)","X.12.500.to..14.999",2867
+"67","Some college, no degree","X.12.500.to..14.999",1311
+"68","Associate degree","X.12.500.to..14.999",687
+"69","Bachelor's degree","X.12.500.to..14.999",833
+"70","Master's degree","X.12.500.to..14.999",259
+"71","Professional degree","X.12.500.to..14.999",41
+"72","Doctorate degree","X.12.500.to..14.999",47
+"73","Less than 9th grade","X.15.000.to..17.499",737
+"74","9th to 12th grade, no diploma","X.15.000.to..17.499",983
+"75","High school graduate (includes equivalency)","X.15.000.to..17.499",3406
+"76","Some college, no degree","X.15.000.to..17.499",1638
+"77","Associate degree","X.15.000.to..17.499",787
+"78","Bachelor's degree","X.15.000.to..17.499",978
+"79","Master's degree","X.15.000.to..17.499",355
+"80","Professional degree","X.15.000.to..17.499",60
+"81","Doctorate degree","X.15.000.to..17.499",48
+"82","Less than 9th grade","X.17.500.to..19.999",481
+"83","9th to 12th grade, no diploma","X.17.500.to..19.999",666
+"84","High school graduate (includes equivalency)","X.17.500.to..19.999",2715
+"85","Some college, no degree","X.17.500.to..19.999",1254
+"86","Associate degree","X.17.500.to..19.999",694
+"87","Bachelor's degree","X.17.500.to..19.999",899
+"88","Master's degree","X.17.500.to..19.999",256
+"89","Professional degree","X.17.500.to..19.999",41
+"90","Doctorate degree","X.17.500.to..19.999",49
+"91","Less than 9th grade","X.20.000.to..22.499",643
+"92","9th to 12th grade, no diploma","X.20.000.to..22.499",857
+"93","High school graduate (includes equivalency)","X.20.000.to..22.499",3629
+"94","Some college, no degree","X.20.000.to..22.499",1811
+"95","Associate degree","X.20.000.to..22.499",1001
+"96","Bachelor's degree","X.20.000.to..22.499",1288
+"97","Master's degree","X.20.000.to..22.499",414
+"98","Professional degree","X.20.000.to..22.499",60
+"99","Doctorate degree","X.20.000.to..22.499",70
+"100","Less than 9th grade","X.22.500.to..24.999",276
+"101","9th to 12th grade, no diploma","X.22.500.to..24.999",472
+"102","High school graduate (includes equivalency)","X.22.500.to..24.999",2265
+"103","Some college, no degree","X.22.500.to..24.999",1237
+"104","Associate degree","X.22.500.to..24.999",678
+"105","Bachelor's degree","X.22.500.to..24.999",880
+"106","Master's degree","X.22.500.to..24.999",297
+"107","Professional degree","X.22.500.to..24.999",44
+"108","Doctorate degree","X.22.500.to..24.999",40
+"109","Less than 9th grade","X.25.000.to..27.499",342
+"110","9th to 12th grade, no diploma","X.25.000.to..27.499",559
+"111","High school graduate (includes equivalency)","X.25.000.to..27.499",3152
+"112","Some college, no degree","X.25.000.to..27.499",1603
+"113","Associate degree","X.25.000.to..27.499",853
+"114","Bachelor's degree","X.25.000.to..27.499",1265
+"115","Master's degree","X.25.000.to..27.499",337
+"116","Professional degree","X.25.000.to..27.499",62
+"117","Doctorate degree","X.25.000.to..27.499",42
+"118","Less than 9th grade","X.27.500.to..29.999",153
+"119","9th to 12th grade, no diploma","X.27.500.to..29.999",296
+"120","High school graduate (includes equivalency)","X.27.500.to..29.999",1866
+"121","Some college, no degree","X.27.500.to..29.999",1144
+"122","Associate degree","X.27.500.to..29.999",620
+"123","Bachelor's degree","X.27.500.to..29.999",770
+"124","Master's degree","X.27.500.to..29.999",259
+"125","Professional degree","X.27.500.to..29.999",26
+"126","Doctorate degree","X.27.500.to..29.999",46
+"127","Less than 9th grade","X.30.000.to..32.499",405
+"128","9th to 12th grade, no diploma","X.30.000.to..32.499",492
+"129","High school graduate (includes equivalency)","X.30.000.to..32.499",3220
+"130","Some college, no degree","X.30.000.to..32.499",1840
+"131","Associate degree","X.30.000.to..32.499",1083
+"132","Bachelor's degree","X.30.000.to..32.499",1486
+"133","Master's degree","X.30.000.to..32.499",474
+"134","Professional degree","X.30.000.to..32.499",50
+"135","Doctorate degree","X.30.000.to..32.499",66
+"136","Less than 9th grade","X.32.500.to..34.999",129
+"137","9th to 12th grade, no diploma","X.32.500.to..34.999",172
+"138","High school graduate (includes equivalency)","X.32.500.to..34.999",1378
+"139","Some college, no degree","X.32.500.to..34.999",751
+"140","Associate degree","X.32.500.to..34.999",409
+"141","Bachelor's degree","X.32.500.to..34.999",843
+"142","Master's degree","X.32.500.to..34.999",227
+"143","Professional degree","X.32.500.to..34.999",30
+"144","Doctorate degree","X.32.500.to..34.999",35
+"145","Less than 9th grade","X.35.000.to..37.499",202
+"146","9th to 12th grade, no diploma","X.35.000.to..37.499",326
+"147","High school graduate (includes equivalency)","X.35.000.to..37.499",2431
+"148","Some college, no degree","X.35.000.to..37.499",1457
+"149","Associate degree","X.35.000.to..37.499",834
+"150","Bachelor's degree","X.35.000.to..37.499",1467
+"151","Master's degree","X.35.000.to..37.499",461
+"152","Professional degree","X.35.000.to..37.499",57
+"153","Doctorate degree","X.35.000.to..37.499",52
+"154","Less than 9th grade","X.37.500.to..39.999",65
+"155","9th to 12th grade, no diploma","X.37.500.to..39.999",145
+"156","High school graduate (includes equivalency)","X.37.500.to..39.999",1216
+"157","Some college, no degree","X.37.500.to..39.999",732
+"158","Associate degree","X.37.500.to..39.999",488
+"159","Bachelor's degree","X.37.500.to..39.999",774
+"160","Master's degree","X.37.500.to..39.999",254
+"161","Professional degree","X.37.500.to..39.999",25
+"162","Doctorate degree","X.37.500.to..39.999",32
+"163","Less than 9th grade","X.40.000.to..42.499",135
+"164","9th to 12th grade, no diploma","X.40.000.to..42.499",315
+"165","High school graduate (includes equivalency)","X.40.000.to..42.499",2192
+"166","Some college, no degree","X.40.000.to..42.499",1401
+"167","Associate degree","X.40.000.to..42.499",950
+"168","Bachelor's degree","X.40.000.to..42.499",1793
+"169","Master's degree","X.40.000.to..42.499",639
+"170","Professional degree","X.40.000.to..42.499",80
+"171","Doctorate degree","X.40.000.to..42.499",91
+"172","Less than 9th grade","X.42.500.to..44.999",28
+"173","9th to 12th grade, no diploma","X.42.500.to..44.999",120
+"174","High school graduate (includes equivalency)","X.42.500.to..44.999",747
+"175","Some college, no degree","X.42.500.to..44.999",586
+"176","Associate degree","X.42.500.to..44.999",396
+"177","Bachelor's degree","X.42.500.to..44.999",701
+"178","Master's degree","X.42.500.to..44.999",270
+"179","Professional degree","X.42.500.to..44.999",23
+"180","Doctorate degree","X.42.500.to..44.999",57
+"181","Less than 9th grade","X.45.000.to..47.499",56
+"182","9th to 12th grade, no diploma","X.45.000.to..47.499",164
+"183","High school graduate (includes equivalency)","X.45.000.to..47.499",1293
+"184","Some college, no degree","X.45.000.to..47.499",889
+"185","Associate degree","X.45.000.to..47.499",741
+"186","Bachelor's degree","X.45.000.to..47.499",1281
+"187","Master's degree","X.45.000.to..47.499",526
+"188","Professional degree","X.45.000.to..47.499",76
+"189","Doctorate degree","X.45.000.to..47.499",69
+"190","Less than 9th grade","X.47.500.to..49.999",41
+"191","9th to 12th grade, no diploma","X.47.500.to..49.999",88
+"192","High school graduate (includes equivalency)","X.47.500.to..49.999",822
+"193","Some college, no degree","X.47.500.to..49.999",546
+"194","Associate degree","X.47.500.to..49.999",368
+"195","Bachelor's degree","X.47.500.to..49.999",761
+"196","Master's degree","X.47.500.to..49.999",356
+"197","Professional degree","X.47.500.to..49.999",30
+"198","Doctorate degree","X.47.500.to..49.999",40
+"199","Less than 9th grade","X.50.000.to..52.499",89
+"200","9th to 12th grade, no diploma","X.50.000.to..52.499",230
+"201","High school graduate (includes equivalency)","X.50.000.to..52.499",1707
+"202","Some college, no degree","X.50.000.to..52.499",1004
+"203","Associate degree","X.50.000.to..52.499",723
+"204","Bachelor's degree","X.50.000.to..52.499",1721
+"205","Master's degree","X.50.000.to..52.499",594
+"206","Professional degree","X.50.000.to..52.499",105
+"207","Doctorate degree","X.50.000.to..52.499",110
+"208","Less than 9th grade","X.52.500.to..54.999",31
+"209","9th to 12th grade, no diploma","X.52.500.to..54.999",83
+"210","High school graduate (includes equivalency)","X.52.500.to..54.999",621
+"211","Some college, no degree","X.52.500.to..54.999",423
+"212","Associate degree","X.52.500.to..54.999",252
+"213","Bachelor's degree","X.52.500.to..54.999",546
+"214","Master's degree","X.52.500.to..54.999",351
+"215","Professional degree","X.52.500.to..54.999",33
+"216","Doctorate degree","X.52.500.to..54.999",41
+"217","Less than 9th grade","X.55.000.to..57.499",43
+"218","9th to 12th grade, no diploma","X.55.000.to..57.499",94
+"219","High school graduate (includes equivalency)","X.55.000.to..57.499",797
+"220","Some college, no degree","X.55.000.to..57.499",598
+"221","Associate degree","X.55.000.to..57.499",496
+"222","Bachelor's degree","X.55.000.to..57.499",1124
+"223","Master's degree","X.55.000.to..57.499",518
+"224","Professional degree","X.55.000.to..57.499",73
+"225","Doctorate degree","X.55.000.to..57.499",93
+"226","Less than 9th grade","X.57.500.to..59.999",11
+"227","9th to 12th grade, no diploma","X.57.500.to..59.999",38
+"228","High school graduate (includes equivalency)","X.57.500.to..59.999",375
+"229","Some college, no degree","X.57.500.to..59.999",328
+"230","Associate degree","X.57.500.to..59.999",206
+"231","Bachelor's degree","X.57.500.to..59.999",549
+"232","Master's degree","X.57.500.to..59.999",313
+"233","Professional degree","X.57.500.to..59.999",26
+"234","Doctorate degree","X.57.500.to..59.999",31
+"235","Less than 9th grade","X.60.000.to..62.499",69
+"236","9th to 12th grade, no diploma","X.60.000.to..62.499",101
+"237","High school graduate (includes equivalency)","X.60.000.to..62.499",984
+"238","Some college, no degree","X.60.000.to..62.499",717
+"239","Associate degree","X.60.000.to..62.499",530
+"240","Bachelor's degree","X.60.000.to..62.499",1363
+"241","Master's degree","X.60.000.to..62.499",689
+"242","Professional degree","X.60.000.to..62.499",47
+"243","Doctorate degree","X.60.000.to..62.499",115
+"244","Less than 9th grade","X.62.500.to..64.999",13
+"245","9th to 12th grade, no diploma","X.62.500.to..64.999",32
+"246","High school graduate (includes equivalency)","X.62.500.to..64.999",373
+"247","Some college, no degree","X.62.500.to..64.999",238
+"248","Associate degree","X.62.500.to..64.999",162
+"249","Bachelor's degree","X.62.500.to..64.999",502
+"250","Master's degree","X.62.500.to..64.999",282
+"251","Professional degree","X.62.500.to..64.999",44
+"252","Doctorate degree","X.62.500.to..64.999",35
+"253","Less than 9th grade","X.65.000.to..67.499",28
+"254","9th to 12th grade, no diploma","X.65.000.to..67.499",48
+"255","High school graduate (includes equivalency)","X.65.000.to..67.499",586
+"256","Some college, no degree","X.65.000.to..67.499",401
+"257","Associate degree","X.65.000.to..67.499",368
+"258","Bachelor's degree","X.65.000.to..67.499",920
+"259","Master's degree","X.65.000.to..67.499",493
+"260","Professional degree","X.65.000.to..67.499",55
+"261","Doctorate degree","X.65.000.to..67.499",70
+"262","Less than 9th grade","X.67.500.to..69.999",9
+"263","9th to 12th grade, no diploma","X.67.500.to..69.999",22
+"264","High school graduate (includes equivalency)","X.67.500.to..69.999",245
+"265","Some college, no degree","X.67.500.to..69.999",208
+"266","Associate degree","X.67.500.to..69.999",136
+"267","Bachelor's degree","X.67.500.to..69.999",419
+"268","Master's degree","X.67.500.to..69.999",270
+"269","Professional degree","X.67.500.to..69.999",21
+"270","Doctorate degree","X.67.500.to..69.999",71
+"271","Less than 9th grade","X.70.000.to..72.499",23
+"272","9th to 12th grade, no diploma","X.70.000.to..72.499",37
+"273","High school graduate (includes equivalency)","X.70.000.to..72.499",616
+"274","Some college, no degree","X.70.000.to..72.499",489
+"275","Associate degree","X.70.000.to..72.499",335
+"276","Bachelor's degree","X.70.000.to..72.499",1063
+"277","Master's degree","X.70.000.to..72.499",474
+"278","Professional degree","X.70.000.to..72.499",55
+"279","Doctorate degree","X.70.000.to..72.499",77
+"280","Less than 9th grade","X.72.500.to..74.999",6
+"281","9th to 12th grade, no diploma","X.72.500.to..74.999",29
+"282","High school graduate (includes equivalency)","X.72.500.to..74.999",192
+"283","Some college, no degree","X.72.500.to..74.999",203
+"284","Associate degree","X.72.500.to..74.999",149
+"285","Bachelor's degree","X.72.500.to..74.999",410
+"286","Master's degree","X.72.500.to..74.999",218
+"287","Professional degree","X.72.500.to..74.999",32
+"288","Doctorate degree","X.72.500.to..74.999",41
+"289","Less than 9th grade","X.75.000.to..77.499",12
+"290","9th to 12th grade, no diploma","X.75.000.to..77.499",50
+"291","High school graduate (includes equivalency)","X.75.000.to..77.499",455
+"292","Some college, no degree","X.75.000.to..77.499",388
+"293","Associate degree","X.75.000.to..77.499",273
+"294","Bachelor's degree","X.75.000.to..77.499",991
+"295","Master's degree","X.75.000.to..77.499",440
+"296","Professional degree","X.75.000.to..77.499",48
+"297","Doctorate degree","X.75.000.to..77.499",67
+"298","Less than 9th grade","X.77.500.to..79.999",8
+"299","9th to 12th grade, no diploma","X.77.500.to..79.999",20
+"300","High school graduate (includes equivalency)","X.77.500.to..79.999",227
+"301","Some college, no degree","X.77.500.to..79.999",161
+"302","Associate degree","X.77.500.to..79.999",87
+"303","Bachelor's degree","X.77.500.to..79.999",309
+"304","Master's degree","X.77.500.to..79.999",179
+"305","Professional degree","X.77.500.to..79.999",11
+"306","Doctorate degree","X.77.500.to..79.999",27
+"307","Less than 9th grade","X.80.000.to..82.499",25
+"308","9th to 12th grade, no diploma","X.80.000.to..82.499",40
+"309","High school graduate (includes equivalency)","X.80.000.to..82.499",455
+"310","Some college, no degree","X.80.000.to..82.499",370
+"311","Associate degree","X.80.000.to..82.499",257
+"312","Bachelor's degree","X.80.000.to..82.499",854
+"313","Master's degree","X.80.000.to..82.499",363
+"314","Professional degree","X.80.000.to..82.499",73
+"315","Doctorate degree","X.80.000.to..82.499",72
+"316","Less than 9th grade","X.82.500.to..84.999",8
+"317","9th to 12th grade, no diploma","X.82.500.to..84.999",3
+"318","High school graduate (includes equivalency)","X.82.500.to..84.999",167
+"319","Some college, no degree","X.82.500.to..84.999",103
+"320","Associate degree","X.82.500.to..84.999",119
+"321","Bachelor's degree","X.82.500.to..84.999",311
+"322","Master's degree","X.82.500.to..84.999",222
+"323","Professional degree","X.82.500.to..84.999",16
+"324","Doctorate degree","X.82.500.to..84.999",36
+"325","Less than 9th grade","X.85.000.to..87.499",2
+"326","9th to 12th grade, no diploma","X.85.000.to..87.499",31
+"327","High school graduate (includes equivalency)","X.85.000.to..87.499",211
+"328","Some college, no degree","X.85.000.to..87.499",170
+"329","Associate degree","X.85.000.to..87.499",168
+"330","Bachelor's degree","X.85.000.to..87.499",508
+"331","Master's degree","X.85.000.to..87.499",313
+"332","Professional degree","X.85.000.to..87.499",28
+"333","Doctorate degree","X.85.000.to..87.499",47
+"334","Less than 9th grade","X.87.500.to..89.999",7
+"335","9th to 12th grade, no diploma","X.87.500.to..89.999",11
+"336","High school graduate (includes equivalency)","X.87.500.to..89.999",113
+"337","Some college, no degree","X.87.500.to..89.999",155
+"338","Associate degree","X.87.500.to..89.999",97
+"339","Bachelor's degree","X.87.500.to..89.999",209
+"340","Master's degree","X.87.500.to..89.999",135
+"341","Professional degree","X.87.500.to..89.999",26
+"342","Doctorate degree","X.87.500.to..89.999",35
+"343","Less than 9th grade","X.90.000.to..92.499",14
+"344","9th to 12th grade, no diploma","X.90.000.to..92.499",23
+"345","High school graduate (includes equivalency)","X.90.000.to..92.499",332
+"346","Some college, no degree","X.90.000.to..92.499",201
+"347","Associate degree","X.90.000.to..92.499",124
+"348","Bachelor's degree","X.90.000.to..92.499",598
+"349","Master's degree","X.90.000.to..92.499",322
+"350","Professional degree","X.90.000.to..92.499",43
+"351","Doctorate degree","X.90.000.to..92.499",69
+"352","Less than 9th grade","X.92.500.to..94.999",4
+"353","9th to 12th grade, no diploma","X.92.500.to..94.999",9
+"354","High school graduate (includes equivalency)","X.92.500.to..94.999",94
+"355","Some college, no degree","X.92.500.to..94.999",86
+"356","Associate degree","X.92.500.to..94.999",48
+"357","Bachelor's degree","X.92.500.to..94.999",226
+"358","Master's degree","X.92.500.to..94.999",158
+"359","Professional degree","X.92.500.to..94.999",20
+"360","Doctorate degree","X.92.500.to..94.999",34
+"361","Less than 9th grade","X.95.000.to..97.499",6
+"362","9th to 12th grade, no diploma","X.95.000.to..97.499",8
+"363","High school graduate (includes equivalency)","X.95.000.to..97.499",93
+"364","Some college, no degree","X.95.000.to..97.499",111
+"365","Associate degree","X.95.000.to..97.499",62
+"366","Bachelor's degree","X.95.000.to..97.499",398
+"367","Master's degree","X.95.000.to..97.499",211
+"368","Professional degree","X.95.000.to..97.499",29
+"369","Doctorate degree","X.95.000.to..97.499",50
+"370","Less than 9th grade","X.97.500.to..99.999",0
+"371","9th to 12th grade, no diploma","X.97.500.to..99.999",9
+"372","High school graduate (includes equivalency)","X.97.500.to..99.999",99
+"373","Some college, no degree","X.97.500.to..99.999",83
+"374","Associate degree","X.97.500.to..99.999",57
+"375","Bachelor's degree","X.97.500.to..99.999",287
+"376","Master's degree","X.97.500.to..99.999",127
+"377","Professional degree","X.97.500.to..99.999",21
+"378","Doctorate degree","X.97.500.to..99.999",37
+"379","Less than 9th grade","X.100.000.and.over",95
+"380","9th to 12th grade, no diploma","X.100.000.and.over",160
+"381","High school graduate (includes equivalency)","X.100.000.and.over",1701
+"382","Some college, no degree","X.100.000.and.over",1831
+"383","Associate degree","X.100.000.and.over",1246
+"384","Bachelor's degree","X.100.000.and.over",6924
+"385","Master's degree","X.100.000.and.over",4054
+"386","Professional degree","X.100.000.and.over",1508
+"387","Doctorate degree","X.100.000.and.over",1344
+"388","Less than 9th grade","Median.income",15474
+"389","9th to 12th grade, no diploma","Median.income",16389
+"390","High school graduate (includes equivalency)","Median.income",25331
+"391","Some college, no degree","Median.income",30088
+"392","Associate degree","Median.income",33604
+"393","Bachelor's degree","Median.income",48320
+"394","Master's degree","Median.income",60057
+"395","Professional degree","Median.income",89069
+"396","Doctorate degree","Median.income",76434
+"397","Less than 9th grade","Mean.income",20791
+"398","9th to 12th grade, no diploma","Mean.income",23234
+"399","High school graduate (includes equivalency)","Mean.income",32457
+"400","Some college, no degree","Mean.income",39042
+"401","Associate degree","Mean.income",42508
+"402","Bachelor's degree","Mean.income",62240
+"403","Master's degree","Mean.income",74471
+"404","Professional degree","Mean.income",129644
+"405","Doctorate degree","Mean.income",101732
+"406","Less than 9th grade","Gini.ratio",0.437
+"407","9th to 12th grade, no diploma","Gini.ratio",0.464
+"408","High school graduate (includes equivalency)","Gini.ratio",0.439
+"409","Some college, no degree","Gini.ratio",0.454
+"410","Associate degree","Gini.ratio",0.44
+"411","Bachelor's degree","Gini.ratio",0.456
+"412","Master's degree","Gini.ratio",0.437
+"413","Professional degree","Gini.ratio",0.5
+"414","Doctorate degree","Gini.ratio",0.455

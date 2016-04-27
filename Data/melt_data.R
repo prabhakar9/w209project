@@ -1,0 +1,5 @@
+setwd("~/Desktop/W209_data")
+d=read.csv("temp.csv")
+library(reshape)
+d2 = melt(d, id=c("year"))
+write.csv(d2, file="sex_time_trends.csv")

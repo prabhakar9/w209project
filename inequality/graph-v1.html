@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Income Inequality - Visualizations</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/income-inequality.css" rel="stylesheet">
+
+    <!-- DC css-->
+    <link href='css/dc.css' rel='stylesheet' type='text/css'>
+
+    <!-- Map css -->
+    <link type="text/css" href="css/leaflet.css" rel="stylesheet"/>
+    <link type="text/css" href="css/leaflet-legend.css" rel="stylesheet"/>
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="modal-header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand page-scroll" href="#page-top">Income Inequality</a>-->
+                    <a class="page-scroll" href="index.html" target="_top"><h2 class="section-heading">Income inequality</h2></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-app-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-center">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li><a class="page-scroll" href="#portfolioModal0"><h4 class="section-heading">Overview</h4></a></li>
+                        <li><a class="page-scroll" href="#portfolioModal1"><h4 class="section-heading">Median income</h4></a></li>
+                        <li><a class="page-scroll" href="#portfolioModal2"><h4 class="section-heading">CEO Pay scale</h4></a></li>
+                        <li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Line chart</h4></a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right navbar-header">
+                        <li><a class="page-scroll close" data-dismiss="modal" aria-hidden="true"><h4 class="section-heading">Close</h4></a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <div class="modal-body" style="max-height: 600px; overflow-y: auto;">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class='span9' id='explore-container'>
+
+                    <section id="portfolioModal">
+                        <div class="container">
+                            <div class="row">
+                                <p class="intro-description" style="color: cornflowerblue; font-weight: 300;">The visualization is built with main focus to understand Income inequality across United States. <br>The visualization ....</p>
+                                <p class="intro-description" style="color: cornflowerblue; font-weight: 300;">Start exploring visualization by clicking on the insights listed in the top menu bar.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="portfolioModal0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <h2 class="section-heading">Overview</h2>
+                                    <h3 class="section-subheading text-muted">Let's explore State level income inequality in United States.</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8" id="map">
+                                </div>
+                            </div>
+                            <!-- <div>
+                                <p></p>
+                                <p></p>
+                            </div> -->
+
+                            <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Income Inequality by State in US ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Income_inequality_by_state&#47;IncomeInequalitybyStateinUS&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='Income_inequality_by_state&#47;IncomeInequalitybyStateinUS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;Income_inequality_by_state&#47;IncomeInequalitybyStateinUS&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+                            <iframe
+                                    style="border: 0;"
+                                    src="https://public.tableau.com/profile/prabhakar.gundugola#!/vizhome/Income_inequality_by_state/IncomeInequalitybyStateinUS"
+                                    scrolling="no"
+                                    width="1440px"
+                                    height="900px">
+                            </iframe>
+                        </div>
+                    </section>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- </div> -->
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.js"></script>
+
+    <!-- Viz js-->
+    <script src="js/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script src="js/crossfilter.js"></script>
+    <script src="js/dc.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Map -->
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    <script type="text/javascript" src="js/colorbrewer.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <!-- <script src="js/agency.js"></script> -->
+    <script src="js/reviews.js"></script>
+    <script src="js/checkins.js"></script>
+    <script src="js/neighborhood.js"></script>
+    <script src="js/sentiment.js"></script>
+
+</body>
+</html>
